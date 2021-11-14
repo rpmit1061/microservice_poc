@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'countries.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'country',
-        'USER': 'making_jods',
-        'PASSWORD': 'making@123',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'ms_database',
+        'USER': 'admin_ms ',
+        'PASSWORD': 'root1234',
+        'HOST': 'ms-database.cn6ottu8pb1k.ap-south-1.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 
